@@ -13,13 +13,13 @@ die() { printf '[-] %s\n' "$*" >&2; exit 1; }
 case "$(uname -m)" in
   x86_64|amd64)
     ARCH=amd64
-    BINARY_URL="https://raw.githubusercontent.com/basumobai/MXnode-amd64/6e36d9feb6136fb502c318e62ba23ce09b54242f/proxy-node"
-    BINARY_SHA256="c7965d48c5d07d5e55da85c8c16d7805dbff674f8cf87f9dfc53f5e3aedf132b"
+    BINARY_URL="https://raw.githubusercontent.com/basumobai/MXnode-amd64/fa173152520e0fcaf6fcf6260d73d61c5d78ff8d/proxy-node"
+    BINARY_SHA256="624b44e5c5eb966d32c1e16c04b562ca5b6b191d87d69a0e6a767b0afd3f128b"
     ;;
   aarch64|arm64)
     ARCH=arm64
-    BINARY_URL="https://raw.githubusercontent.com/basumobai/moudu-X-used/76849f2148fe736174847c7e40189444f6783857/proxy-node"
-    BINARY_SHA256="c0c3435f4321a164c98226261789b307568606b55c34e3d653fa9e15daacdd5c"
+    BINARY_URL="https://raw.githubusercontent.com/basumobai/moudu-X-used/4bfaaa673aa321a8c2f5bdf5555942df0846b350/proxy-node"
+    BINARY_SHA256="b94524ad69becfe20739d9b8fd58ccc9d57ec0fff8f1b94f9cd1b410c9e60ea3"
     ;;
   *) die "不支持的 CPU 架构: $(uname -m)；当前提供 AMD64 和 ARM64" ;;
 esac

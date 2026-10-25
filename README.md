@@ -237,12 +237,12 @@ bash /opt/proxy-node/mnode status
 
 ## 当前下载版本与维护
 
-当前统一入口使用 2026-10-02 上传的两个二进制。下载地址固定到以下提交，避免脚本与二进制在更新期间混用：
+当前统一入口使用 2026-10-25 更新的两个二进制（来自 `proxy-node-linux-amd64 (3).7z` 和 `proxy-node-linux-arm64 (1).7z`）。现有安装与管理脚本继续使用原有配置格式、架构校验和安全更新流程；不覆盖压缩包中较旧的脚本。下载地址固定到以下提交，避免脚本与二进制在更新期间混用：
 
 | 文件 | 固定来源提交 |
 | --- | --- |
-| AMD64 `proxy-node` | [MXnode-amd64 · 6e36d9f](https://github.com/basumobai/MXnode-amd64/commit/6e36d9feb6136fb502c318e62ba23ce09b54242f) |
-| ARM64 `proxy-node` | [moudu-X-used · 76849f2](https://github.com/basumobai/moudu-X-used/commit/76849f2148fe736174847c7e40189444f6783857) |
+| AMD64 `proxy-node` | [MXnode-amd64 · fa17315](https://github.com/basumobai/MXnode-amd64/commit/fa173152520e0fcaf6fcf6260d73d61c5d78ff8d) |
+| ARM64 `proxy-node` | [moudu-X-used · 4bfaaa6](https://github.com/basumobai/moudu-X-used/commit/4bfaaa673aa321a8c2f5bdf5555942df0846b350) |
 | 共用 `onekey.sh` | [moudu-X-used · 6831ac5](https://github.com/basumobai/moudu-X-used/commit/6831ac510a16acf7cbd9b3d576e9d2e57139bdc0) |
 
 维护新版本时：
